@@ -21,15 +21,6 @@ var resetView = function() {
 /*
  * Resets sidebar, clearing out place info and leaving title+footer only
  */
-var resetSidebar = function() {
-    // Make the map title original color
-    $('header').removeClass('black-50');
-
-    // Clear placeInfo containers
-    $('#placeInfo').addClass('dn');
-    $('#placeInfo h2, #placeInfo h3').html('');
-    $('#placeInfo div').html('');
-    $('#googleMaps').addClass('dn').removeClass('dt');
 
     // Reset hash
     location.hash = '';
